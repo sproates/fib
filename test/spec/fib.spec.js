@@ -28,10 +28,11 @@
 
             expect(fib(0) + fib(1)).toEqual(fib(2));
             expect(fib(1) + fib(2)).toEqual(fib(3));
-            expect(fib(2) + fib(3)).toEqual(fib(4));
             expect(fib(10) + fib(11)).toEqual(fib(12));
             expect(fib(44) + fib(43)).toEqual(fib(45));
             expect(fib(99) + fib(100)).toEqual(fib(101));
+            expect(fib(250) + fib(249)).toEqual(fib(251));
+            expect(fib(2500) + fib(2499)).toEqual(fib(2501));
         });
 
         it('Should handle malformed inputs', function () {
