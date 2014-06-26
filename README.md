@@ -2,7 +2,7 @@
 
 Calculate the number at position n in the fibonacci series.
 
-This is the recursive solution with memoization.
+This is a comparison between recursive memoization and loop.
 
 ## Prequisites
 
@@ -25,9 +25,12 @@ In this directory:
 * test - Test code
   * specs - Unit test specifications
     * fib.spec.js - Unit tests for the fib module
+    * fibLoop.spec.js - Unit tests for the fibLoop module
     * util.spec.js - Unit tests for the util module
   * perf - Performance test specifications
-    * fib.spec.js - Performance tests for the fib module.
+    * fib.spec.js - Performance tests for the fib modules range 0-20.
+    * fibExtended.spec.js - Performance tests for the fib modules range 0-250.
 * src - Source code
  * fib.js - The fib module, containing the fibonacci function
+ * fibLoop.js - The fib module, containing the fibonacci loop function
  * util.js - The util module, containing utility functions
